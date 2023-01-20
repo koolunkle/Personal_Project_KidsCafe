@@ -1,0 +1,65 @@
+/* set aside */
+aside {
+  float: left;
+  width: 10rem;
+  text-align: center;
+}
+
+aside h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+aside ul {
+  padding: 0;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  background-color: #f6f6f6;
+}
+
+aside ul li {
+  margin: 1rem;
+  list-style: none;
+}
+
+a:hover {
+  color: #a6c6ca;
+  text-decoration: none;
+}
+
+/* set main */
+main {
+  float: right;
+  width: 65%;
+  margin: 3rem 0;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main img {
+  width: 50rem;
+  height: 25rem;
+  padding: 1rem;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+main li {
+  font-size: 1.3rem;
+}
+
+main p {
+  font-weight: bold;
+}
+
+hr {
+  width: 50rem;
+  height: 1px;
+  border: 0;
+  background-color: black;
+}

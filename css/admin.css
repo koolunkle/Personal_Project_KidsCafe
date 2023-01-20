@@ -1,0 +1,142 @@
+/* admin_list.php */
+#admin_box {
+  width: 60rem;
+  margin: 0 auto;
+}
+
+#admin_box h3 {
+  font-size: 1.5rem;
+  margin: 2rem 0 0.6rem 0;
+}
+
+#member_list {
+  margin: 0.6rem 0 2rem 0;
+}
+
+#member_list li:nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-top: 2px solid #dddddd;
+  border-bottom: 2px solid #dddddd;
+  background-color: #443e58;
+  color: white;
+}
+
+#member_list li {
+  font-size: 1.3rem;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+#member_list span {
+  display: inline-block;
+  text-align: center;
+}
+
+#member_list input {
+  width: 3rem;
+  height: 1.25rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#member_list button {
+  font-size: 1.1rem;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #443e58;
+  color: white;
+}
+
+#member_list .col1 {
+  width: 7rem;
+}
+
+#member_list .col2 {
+  width: 10rem;
+}
+
+#member_list .col3 {
+  width: 10rem;
+}
+
+#member_list .col4 {
+  width: 5rem;
+}
+
+#member_list .col5 {
+  width: 5rem;
+}
+
+#member_list .col6 {
+  width: 10rem;
+}
+
+#member_list .col7 {
+  width: 5rem;
+}
+
+#member_list .col8 {
+  width: 5rem;
+}
+
+#admin_box h3#board_title {
+  margin: 1.875rem 0 0.625rem 0;
+}
+
+#board_list {
+  margin: 0.625rem 0 3.125rem 0;
+}
+
+#board_list .col1 {
+  width: 6rem;
+}
+
+#board_list .col2 {
+  width: 3rem;
+}
+
+#board_list .col3 {
+  width: 10rem;
+}
+
+#board_list .col4 {
+  width: 17rem;
+}
+
+#board_list .col5 {
+  width: 12rem;
+}
+
+#board_list .col6 {
+  width: 10rem;
+}
+
+#board_list li.title {
+  font-weight: bold;
+  border-top: 2px solid #dddddd;
+  border-bottom: 2px solid #dddddd;
+  background-color: #443e58;
+  color: white;
+}
+
+#board_list li {
+  padding: 0.625rem 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+#board_list span {
+  display: inline-block;
+  text-align: center;
+}
+
+#board_list button {
+  font-size: 1.2rem;
+  margin-top: 1.25rem;
+  padding: 0.3rem 1.3rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #443e58;
+  color: white;
+}

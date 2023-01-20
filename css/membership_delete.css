@@ -1,0 +1,46 @@
+section {
+  width: 43.75rem;
+  margin: 3rem auto;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+hr {
+  width: 45rem;
+  height: 1px;
+  border: 0;
+  background-color: black;
+}
+
+.warning {
+  width: 43.75rem;
+}
+
+.warning h3 {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.warning li {
+  width: 43.75rem;
+  margin-bottom: 0.625rem;
+  list-style-type: none;
+}
+
+.button {
+  text-align: center;
+}
+
+.button input {
+  width: 6.25rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #443e58;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,157 @@
+/* set main slide show */
+.slideshow {
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow_slides {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.slideshow_slides img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  object-fit: cover;
+}
+
+.slideshow_nav a {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+.slideshow_nav a.previous {
+  margin-left: -55rem;
+}
+
+.slideshow_nav a.next {
+  margin-left: 55rem;
+}
+
+.slideshow_indicator {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0.625rem;
+}
+
+.slideshow_indicator a {
+  display: inline-block;
+  color: white;
+  font-size: 1rem;
+  padding: 0.3125rem;
+}
+
+.slideshow_indicator a.active {
+  color: black;
+}
+
+/* set main content */
+h4 {
+  width: 20rem;
+  padding-bottom: 0.3125rem;
+  border-bottom: 1px solid #dddddd;
+}
+
+#introduce_title {
+  font-size: 2rem;
+  margin: 3rem auto 1.5rem auto;
+  text-align: center;
+}
+
+#introduce_content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#introduce_content ul {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+#introduce_content img {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.introduce_content_title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#best_review_title {
+  font-size: 2rem;
+  margin: 3rem auto 1.5rem auto;
+  text-align: center;
+}
+
+#best_review_content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#best_review_content ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+#best_review_content img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+#best_review_content_subject {
+  font-weight: bold;
+}
+
+.best_review_content_list {
+  font-size: 1.3rem;
+}
+
+#total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total_title {
+  font-size: 2rem;
+  margin: 3rem auto 1.5rem auto;
+  text-align: center;
+}
+
+#info_using_content {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#admission_fee_content {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#location_content {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,131 @@
+/* set aside */
+aside {
+  float: left;
+  width: 10rem;
+  text-align: center;
+}
+
+aside h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+aside ul {
+  padding: 0;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f6f6f6;
+}
+
+aside ul li {
+  margin: 1rem;
+  list-style: none;
+}
+
+a:hover {
+  color: #a6c6ca;
+  text-decoration: none;
+}
+
+/* set main */
+main {
+  float: right;
+  width: 70%;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+hr {
+  width: 50rem;
+  height: 1px;
+  border: 0;
+  background-color: black;
+}
+
+.search {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.search select {
+  width: 7.5rem;
+  height: 2.5rem;
+}
+
+.search input[type="text"] {
+  width: 15.625rem;
+  height: 2.5rem;
+}
+
+.search input[type="submit"] {
+  width: 6.25rem;
+  height: 2.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #443e58;
+  border: none;
+  border-radius: 5px;
+}
+
+.table {
+  width: 50rem;
+  margin-bottom: 3.125rem;
+}
+
+.table table,
+th,
+tr,
+td {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+.table table th,
+tr {
+  width: 12.5rem;
+  height: 3.125rem;
+  text-align: center;
+}
+
+.table th {
+  color: white;
+  background-color: #443e58;
+}
+
+.table table tr td:nth-child(2) {
+  width: 31.25rem;
+  max-width: 31.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#page_num {
+  width: 50rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#page_num li {
+  display: inline;
+}
+
+.button {
+  width: 50rem;
+  text-align: right;
+}
+
+.button input {
+  width: 6.25rem;
+  height: 2.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #443e58;
+  border: none;
+  border-radius: 5px;
+}

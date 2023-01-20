@@ -1,0 +1,103 @@
+/* set aside */
+aside {
+  float: left;
+  width: 10rem;
+  text-align: center;
+}
+
+aside h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+aside ul {
+  padding: 0;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  background-color: #f6f6f6;
+}
+
+aside ul li {
+  margin: 1rem;
+  list-style: none;
+}
+
+a:hover {
+  color: #a6c6ca;
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #443e58;
+}
+
+section {
+  width: 30rem;
+  margin: 0 auto 2rem auto;
+}
+
+label {
+  font-size: 1.5rem;
+  padding: 0.6rem;
+}
+
+input {
+  width: 95%;
+  font-size: 1.3rem;
+  margin: 0.6rem;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #443e58;
+}
+
+.id {
+  display: flex;
+}
+
+.input_duplicate {
+  width: 7rem;
+  border: none;
+  border-radius: 5px;
+  background: #443e58;
+  color: #fff;
+}
+
+.input_button {
+  text-align: right;
+}
+
+input.btn {
+  width: 6.25rem;
+  color: #fff;
+  background: #443e58;
+  border: none;
+  border-radius: 5px;
+}
+
+input.btn:hover {
+  opacity: 0.7;
+}
+
+.error {
+  background: #f2dede;
+  color: #a94442;
+  padding: 0.6rem;
+  width: 95%;
+  border-radius: 5px;
+  margin: 1.25rem auto;
+}
+
+.success {
+  background: #d4edda;
+  color: #40754c;
+  padding: 0.3rem;
+  width: 95%;
+  border-radius: 5px;
+  margin: 1.25rem auto;
+}

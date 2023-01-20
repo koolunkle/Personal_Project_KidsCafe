@@ -1,0 +1,114 @@
+/* set aside */
+aside {
+  float: left;
+  width: 10rem;
+  text-align: center;
+}
+
+aside h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+aside ul {
+  padding: 0;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f6f6f6;
+}
+
+aside ul li {
+  margin: 1rem;
+  list-style: none;
+}
+
+a:hover {
+  color: #a6c6ca;
+  text-decoration: none;
+}
+
+/* set main */
+main {
+  float: right;
+  width: 65%;
+  margin: 3rem 0;
+}
+
+hr {
+  width: 45rem;
+  height: 1px;
+  border: 0;
+  background-color: black;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+form {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+table {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+td {
+  height: 4.375rem;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+td.title {
+  width: 12.5rem;
+  color: white;
+  background-color: #443e58;
+}
+
+tr :last-child {
+  width: 31.25rem;
+}
+
+td#content {
+  height: 18.75rem;
+}
+
+td > input {
+  height: 3.125rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+}
+
+td > textarea {
+  height: 25rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.button {
+  width: 43.75rem;
+  display: flex;
+  justify-content: right;
+}
+
+.button input {
+  width: 6.25rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #443e58;
+  border: none;
+  border-radius: 5px;
+}
